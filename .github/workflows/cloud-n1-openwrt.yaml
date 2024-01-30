@@ -44,7 +44,7 @@ jobs:
         swap-storage: true
 
     - name: Checkout
-      uses: actions/checkout@v3.1.0
+      uses: actions/checkout@main
       with:
         ref: main
 
