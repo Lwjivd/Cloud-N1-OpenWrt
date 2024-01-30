@@ -37,4 +37,4 @@ mv -f package-temp/luci-app-amlogic/luci-app-amlogic package/lean/
 rm -rf package-temp
 
 # 临时修复aliyundrive-webdav
-sed -i 's/stripped/release/g' feeds/packages/multimedia/aliyundrive-webdav/Makefile
+#sed -i 's/stripped/release/g' feeds/packages/multimedia/aliyundrive-webdav/Makefile
